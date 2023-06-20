@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[1000];
+    int b;
+    int i,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        scanf("%s",&a);
+        scanf("%d",&b);
+        if(a[0]=='T' && a[1]=='h' && a[2]=='o' && a[3]=='r' )
+            printf("Y\n");
+        else
+            printf("N\n");
+    }
+
+    return 0;
+}
